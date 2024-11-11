@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(cookieParser());
 
 const corsOptions = {
-    origin: 'http://localhost:3000', // Frontend URL
+    origin: 'http://localhost:8000', // Frontend URL
     credentials: true // Allow cookies
 };
 
